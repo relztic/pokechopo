@@ -1,0 +1,27 @@
+{
+  "coveragePathIgnorePatterns": [
+    "<rootDir>/src/config/",
+    "<rootDir>/src/.*index.js",
+    "<rootDir>/node_modules/"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
+    }
+  },
+  "moduleDirectories": [
+    "src/",
+    "node_modules/"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "jsx"
+  ],
+  "setupTestFrameworkScriptFile": "<rootDir>/src/config/setupTests.js",
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ]
+}
