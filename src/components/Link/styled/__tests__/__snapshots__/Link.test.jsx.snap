@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StyledLink /> should style the component on valid props 1`] = `
+.c0 {
+  color: #ffffff;
+  text-decoration-skip: ink;
+  -webkit-transition: color 200ms ease-in;
+  transition: color 200ms ease-in;
+}
+
+.c0:hover {
+  color: #ffeb3b;
+}
+
+<a
+  className="c0"
+/>
+`;

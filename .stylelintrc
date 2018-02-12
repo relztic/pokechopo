@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components",
+    "prettier-stylelint/config"
+  ],
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "syntax": "scss"
+}

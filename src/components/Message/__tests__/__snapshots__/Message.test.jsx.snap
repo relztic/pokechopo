@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Message /> should render the component on valid props 1`] = `
+<styled.span
+  variant="normal"
+>
+  Hello, World!
+</styled.span>
+`;
+
+exports[`<Message /> should render the component on valid props 2`] = `
+<styled.span
+  variant="danger"
+>
+  Hello, World!
+</styled.span>
+`;
+
+exports[`<Message /> should render the component on valid props 3`] = `
+<styled.span
+  variant="info"
+>
+  Hello, World!
+</styled.span>
+`;
+
+exports[`<Message /> should render the component on valid props 4`] = `
+<styled.span
+  variant="success"
+>
+  Hello, World!
+</styled.span>
+`;
+
+exports[`<Message /> should render the component on valid props 5`] = `
+<styled.span
+  variant="warning"
+>
+  Hello, World!
+</styled.span>
+`;

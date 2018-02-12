@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the component on valid props 1`] = `
+<styled.button
+  disabled={false}
+  onClick={[Function]}
+>
+  Hello, World!
+</styled.button>
+`;
+
+exports[`<Button /> should render the component on valid props 2`] = `
+<styled.button
+  disabled={true}
+  onClick={[Function]}
+>
+  Hello, World!
+</styled.button>
+`;

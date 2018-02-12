@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WithTheme(WrappedComponent) /> should wrap the component on valid props 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "mode": "normal",
+    }
+  }
+>
+  <span>
+    Hello, World!
+  </span>
+</ThemeProvider>
+`;

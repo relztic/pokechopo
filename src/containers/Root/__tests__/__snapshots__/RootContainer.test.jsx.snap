@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RootContainer /> should render the container on valid props 1`] = `
+<React.Fragment>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Discover a Pokémon
+  </Button>
+  <Divider />
+  <React.Fragment>
+    <Message
+      variant="warning"
+    >
+      Click it.
+    </Message>
+    <Message
+      variant="normal"
+    >
+      Gotta catch 'em all!
+      <Message
+        variant="info"
+      >
+        ™
+      </Message>
+    </Message>
+  </React.Fragment>
+  <Copyright>
+    © 
+    2018
+     
+    <Link
+      href="https://www.linkedin.com/in/relztic/"
+      target="blank"
+    >
+      Relztic
+    </Link>
+     
+    🐴
+  </Copyright>
+</React.Fragment>
+`;
+
+exports[`<RootContainer /> should render the container on valid props 2`] = `
+<React.Fragment>
+  <Button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Discover a Pokémon
+  </Button>
+  <Divider />
+  <React.Fragment>
+    <Message
+      variant="warning"
+    >
+      <Loading
+        message="Searching"
+        suffix="."
+        suffixDuration={1000}
+        suffixLength={3}
+      />
+    </Message>
+    <Message
+      variant="normal"
+    >
+      Gotta catch 'em all!
+      <Message
+        variant="info"
+      >
+        ™
+      </Message>
+    </Message>
+  </React.Fragment>
+  <Copyright>
+    © 
+    2018
+     
+    <Link
+      href="https://www.linkedin.com/in/relztic/"
+      target="blank"
+    >
+      Relztic
+    </Link>
+     
+    🐴
+  </Copyright>
+</React.Fragment>
+`;
+
+exports[`<RootContainer /> should render the container on valid props 3`] = `
+<React.Fragment>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Discover a Pokémon
+  </Button>
+  <Divider />
+  <React.Fragment>
+    <Message
+      variant="warning"
+    >
+      Click it.
+    </Message>
+    <Message
+      variant="danger"
+    >
+      InvalidArgumentError: invalid pokemonNumber \`-1\`
+    </Message>
+  </React.Fragment>
+  <Copyright>
+    © 
+    2018
+     
+    <Link
+      href="https://www.linkedin.com/in/relztic/"
+      target="blank"
+    >
+      Relztic
+    </Link>
+     
+    🐴
+  </Copyright>
+</React.Fragment>
+`;
+
+exports[`<RootContainer /> should render the container on valid props 4`] = `
+<React.Fragment>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Discover a Pokémon
+  </Button>
+  <Divider />
+  <React.Fragment>
+    <Message
+      variant="normal"
+    >
+      <Link
+        href="https://www.pokemon.com/us/pokedex/bulbasaur/"
+        target="blank"
+      >
+        Bulbasaur
+      </Link>
+      <Message
+        variant="warning"
+      >
+         #001
+      </Message>
+    </Message>
+    <Message
+      variant="success"
+    >
+      Look at what you got!
+    </Message>
+  </React.Fragment>
+  <Copyright>
+    © 
+    2018
+     
+    <Link
+      href="https://www.linkedin.com/in/relztic/"
+      target="blank"
+    >
+      Relztic
+    </Link>
+     
+    🐴
+  </Copyright>
+</React.Fragment>
+`;

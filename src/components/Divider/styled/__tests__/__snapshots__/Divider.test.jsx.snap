@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StyledDivider /> should style the component on valid props 1`] = `
+.c0 {
+  margin: 0.25rem;
+}
+
+<span
+  className="c0"
+/>
+`;

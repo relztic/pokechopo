@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> should render the component on valid props 1`] = `
+<styled.a
+  href="https://pokeapi.co/api/v2/pokemon/1/"
+  target="_self"
+>
+  Hello, World!
+</styled.a>
+`;
+
+exports[`<Link /> should render the component on valid props 2`] = `
+<styled.a
+  href="https://pokeapi.co/api/v2/pokemon/1/"
+  target="_blank"
+>
+  Hello, World!
+</styled.a>
+`;
+
+exports[`<Link /> should render the component on valid props 3`] = `
+<styled.a
+  href="https://pokeapi.co/api/v2/pokemon/1/"
+  target="_parent"
+>
+  Hello, World!
+</styled.a>
+`;
+
+exports[`<Link /> should render the component on valid props 4`] = `
+<styled.a
+  href="https://pokeapi.co/api/v2/pokemon/1/"
+  target="_top"
+>
+  Hello, World!
+</styled.a>
+`;

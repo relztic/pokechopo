@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StyledCopyright /> should style the component on valid props 1`] = `
+.c0 {
+  bottom: 0;
+  font-size: 0.75rem;
+  margin: 0.5rem;
+  position: absolute;
+  right: 0;
+}
+
+<span
+  className="c0"
+/>
+`;
